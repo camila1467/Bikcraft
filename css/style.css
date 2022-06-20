@@ -1,9 +1,18 @@
 body {
   margin:0px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom:600px ;
 }
-ul {
+h1, ul, p{
   margin: 0px;
+}
+img {
+  max-width:100%;
+  display: block;
+}
+
+ul {
+  
   padding: 0px;
   list-style: none;
 }
@@ -12,6 +21,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 
@@ -29,7 +39,7 @@ a {
 }
 .header-menu{
   display: flex;
-  gap: 20px;
+  gap: 40px;
   flex-wrap: wrap;
 }
 .header-menu a {
